@@ -26,7 +26,7 @@ def p2(input: str) -> int:
 
 if __name__ == "__main__":
     with open("2015/inputs/d12.txt") as f:
-        line: str = f.read().strip()
+        line = f.read().splitlines()[0]
 
     print(f"P1: {p1(line)}")
     print(f"P2: {p2(line)}")
