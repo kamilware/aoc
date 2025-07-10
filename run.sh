@@ -18,6 +18,7 @@ case $YEAR in
             exit 1
         fi
         ;;
+
     2016)
         FILE="2016/d${DAY}.sh"
         if [ -f "$FILE" ]; then
@@ -27,6 +28,7 @@ case $YEAR in
             exit 1
         fi
         ;;
+
     *)
         echo "Year $YEAR not supported."
         exit 1
